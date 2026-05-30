@@ -1,10 +1,15 @@
 import random
 
+guess_number= random.randint(1,20)
+
+input("Enter Your guess between 1-20:    ")
+
+
 print('  Welcome to Number Guessing Game')
 print("Hello! Now play your game!")
 
 guess= (eval(input("Enter Your guess between 1-20:    ")))
-guess_number= random.randint(1,20)
+
 if (guess==guess_number):
   print("Congratulations! your guess is correct")
   print("You Win")
